@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aminoche/linkedin-recommender/issues"
   },
-  "homepage": "https://github.com/aminoche/linkedin-recommender#readme"
+  "homepage": "https://github.com/aminoche/linkedin-recommender#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
 }
