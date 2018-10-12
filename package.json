@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-recommender",
+  "version": "1.0.0",
+  "description": "Make it easy to recommend your peers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminoche/linkedin-recommender.git"
+  },
+  "author": "Adil Minocherhomjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminoche/linkedin-recommender/issues"
+  },
+  "homepage": "https://github.com/aminoche/linkedin-recommender#readme"
+}
