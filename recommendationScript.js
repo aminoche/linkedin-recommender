@@ -1,3 +1,5 @@
+const inquire = require('inquirer');
+
 const linkedInRecommendation = (
   positiveDescriptivePhrase = '',
   personYouAreRecommending = '',
