@@ -18,5 +18,8 @@
   "homepage": "https://github.com/aminoche/linkedin-recommender#readme",
   "dependencies": {
     "inquirer": "^6.2.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
