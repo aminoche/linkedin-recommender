@@ -1,9 +1,7 @@
-const inquire = require('inquirer');
-
-const linkedInRecommendation = (
+const recommendation = (
   positiveDescriptivePhrase = '',
   personYouAreRecommending = '',
-  lengthOfTime = 'three months',
+  lengthOfTime = '',
   descriptionOfWorkingRelationship = '',
   descriptionOfWhatMakesPersonStandOut = '',
   thirdPersonGenderPronoun = '',
@@ -22,16 +20,7 @@ const linkedInRecommendation = (
   )} and comes with my heartfelt recommendation.`;
 };
 
-console.log(
-  linkedInRecommendation(
-    'Innovative',
-    'Morgan',
-    'three months',
-    'we worked together at FullStack Academy on a week-long hackathon to build a React Native app',
-    'simplify complicated problems',
-    'he',
-    'makes dealing with complicated matters fun'
-  )
-);
+module.exports = recommendation;
 
-//From https://www.themuse.com/advice/your-5minute-guide-to-writing-an-amazing-linkedin-recommendation
+// Credits to The Muse
+// https://www.themuse.com/advice/your-5minute-guide-to-writing-an-amazing-linkedin-recommendation
